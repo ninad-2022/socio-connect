@@ -18,3 +18,8 @@
   width: 80%;
   align-self: center;
 }
+
+.navIcons > a > img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
