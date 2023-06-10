@@ -10,8 +10,6 @@ const Auth = () => {
   const dispatch = useDispatch();
   const loading = useSelector((state) => state.authReducer.loading);
 
-  console.log(loading);
-
   const [data, setData] = useState({
     firstname: "",
     lastname: "",
